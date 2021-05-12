@@ -10,7 +10,7 @@ apt-get install -y gawk gzip zip unzip tar grep coreutils perl openssl net-tools
 echo -e "Done"
 
 echo -e "Downloading GateManager Installer...\c"
-wget -O /tmp/GateManager.tgz https://firmware.secomea.com/download/gatemanager/8250 &>> /tmp/InstallGM.log
+wget -O /tmp/GateManager.tgz https://firmware.secomea.com/api/download?product=8250 &>> /tmp/InstallGM.log
 echo -e "Done"
 
 echo -e "Unpacking GateManager Installer...\c"
